@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92E35822C97D97D00E38644 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E35812C97D97D00E38644 /* LoginView.swift */; };
+		C92E35852C97D9B200E38644 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E35842C97D9B200E38644 /* LoginButton.swift */; };
+		C957B6FF2C99167F00E518ED /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */; };
+		C957B7032C992A2C00E518ED /* TwoIconsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */; };
+		C957B7082C9930D700E518ED /* SeamlessTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */; };
 		C9AF08CE2C8029DC00947715 /* LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08CD2C8029DC00947715 /* LifeApp.swift */; };
 		C9AF08D02C8029DC00947715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08CF2C8029DC00947715 /* ContentView.swift */; };
 		C9AF08D22C8029DF00947715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF08D12C8029DF00947715 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 		C9AF08DF2C8029E000947715 /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08DE2C8029E000947715 /* LifeTests.swift */; };
 		C9AF08E92C8029E000947715 /* LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08E82C8029E000947715 /* LifeUITests.swift */; };
 		C9AF08EB2C8029E000947715 /* LifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08EA2C8029E000947715 /* LifeUITestsLaunchTests.swift */; };
+		C9AF08F82C802A5000947715 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08F72C802A5000947715 /* JournalView.swift */; };
+		C9AF08FB2C802CD100947715 /* Starthere.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08FA2C802CD100947715 /* Starthere.swift */; };
+		C9AF08FD2C802FFC00947715 /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08FC2C802FFC00947715 /* Save.swift */; };
+		C9AF08FF2C80301000947715 /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08FE2C80301000947715 /* Delete.swift */; };
+		C9AF09012C80312300947715 /* RRAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF09002C80312300947715 /* RRAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92E35812C97D97D00E38644 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C92E35842C97D9B200E38644 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoIconsVIew.swift; sourceTree = "<group>"; };
+		C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamlessTextEditor.swift; sourceTree = "<group>"; };
 		C9AF08CA2C8029DC00947715 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF08CD2C8029DC00947715 /* LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeApp.swift; sourceTree = "<group>"; };
 		C9AF08CF2C8029DC00947715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,11 @@
 		C9AF08E42C8029E000947715 /* LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF08E82C8029E000947715 /* LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITests.swift; sourceTree = "<group>"; };
 		C9AF08EA2C8029E000947715 /* LifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9AF08F72C802A5000947715 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		C9AF08FA2C802CD100947715 /* Starthere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starthere.swift; sourceTree = "<group>"; };
+		C9AF08FC2C802FFC00947715 /* Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
+		C9AF08FE2C80301000947715 /* Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delete.swift; sourceTree = "<group>"; };
+		C9AF09002C80312300947715 /* RRAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92E35802C97D94800E38644 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C92E35842C97D9B200E38644 /* LoginButton.swift */,
+				C92E35812C97D97D00E38644 /* LoginView.swift */,
+				C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C9AF08C12C8029DC00947715 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +124,13 @@
 		C9AF08CC2C8029DC00947715 /* Life */ = {
 			isa = PBXGroup;
 			children = (
+				C92E35802C97D94800E38644 /* Services */,
+				C9AF08F92C802C6E00947715 /* Views */,
 				C9AF08CD2C8029DC00947715 /* LifeApp.swift */,
+				C9AF08F72C802A5000947715 /* JournalView.swift */,
 				C9AF08CF2C8029DC00947715 /* ContentView.swift */,
-				C9AF08D12C8029DF00947715 /* Assets.xcassets */,
 				C9AF08D32C8029DF00947715 /* Preview Content */,
+				C9AF08D12C8029DF00947715 /* Assets.xcassets */,
 			);
 			path = Life;
 			sourceTree = "<group>";
@@ -125,6 +158,19 @@
 				C9AF08EA2C8029E000947715 /* LifeUITestsLaunchTests.swift */,
 			);
 			path = LifeUITests;
+			sourceTree = "<group>";
+		};
+		C9AF08F92C802C6E00947715 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF08FE2C80301000947715 /* Delete.swift */,
+				C9AF09002C80312300947715 /* RRAPI.swift */,
+				C9AF08FC2C802FFC00947715 /* Save.swift */,
+				C9AF08FA2C802CD100947715 /* Starthere.swift */,
+				C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */,
+				C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AF09012C80312300947715 /* RRAPI.swift in Sources */,
+				C92E35852C97D9B200E38644 /* LoginButton.swift in Sources */,
+				C957B7032C992A2C00E518ED /* TwoIconsVIew.swift in Sources */,
+				C9AF08FF2C80301000947715 /* Delete.swift in Sources */,
+				C9AF08FB2C802CD100947715 /* Starthere.swift in Sources */,
 				C9AF08D02C8029DC00947715 /* ContentView.swift in Sources */,
+				C9AF08FD2C802FFC00947715 /* Save.swift in Sources */,
 				C9AF08CE2C8029DC00947715 /* LifeApp.swift in Sources */,
+				C957B7082C9930D700E518ED /* SeamlessTextEditor.swift in Sources */,
+				C92E35822C97D97D00E38644 /* LoginView.swift in Sources */,
+				C9AF08F82C802A5000947715 /* JournalView.swift in Sources */,
+				C957B6FF2C99167F00E518ED /* NeumorphicButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
