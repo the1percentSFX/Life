@@ -8,43 +8,52 @@
 import SwiftUI
 
 struct LoginView: View {
+    @EnvironmentObject var appState: AppState
     @State private var email: String = ""
     @State private var password: String = ""
+    @State private var navigateToJournal: Bool = false
     
     var body: some View {
-        ZStack {
-            Color(#colorLiteral(red: 0.1333333333, green: 0.1529411765, blue: 0.1882352941, alpha: 1)).edgesIgnoringSafeArea(.all)
-            
-            VStack(spacing: 20) {
-                Text("Sentio")
-                    .font(.custom("Baskerville", size: 40))
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(#colorLiteral(red: 0.7529411765, green: 0.7725490196, blue: 0.8, alpha: 1)))
-                    .padding(.top, 50)
+        NavigationView {
+            ZStack {
+                Color(#colorLiteral(red: 0.1333333333, green: 0.1529411765, blue: 0.1882352941, alpha: 1)).edgesIgnoringSafeArea(.all)
                 
-                VStack(spacing: 15) {
-                    NeumorphicTextField(text: $email, placeholder: "Email")
-                    NeumorphicTextField(text: $password, placeholder: "Password", isSecure: true)
+                VStack(spacing: 20) {
+                    Text("ThoughtSpace")
+                        .font(.custom("Baskerville", size: 40))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(#colorLiteral(red: 0.7529411765, green: 0.7725490196, blue: 0.8, alpha: 1)))
+                        .padding(.top, 50)
+                    
+                    VStack(spacing: 15) {
+                        NeumorphicTextField(text: $email, placeholder: "Email")
+                        NeumorphicTextField(text: $password, placeholder: "Password", isSecure: true)
+                    }
+                    .padding(.top, 30)
+                    
+                    NeumorphicButton(text: "Log In") {
+                        // For now, we'll just set isLoggedIn to true
+                        appState.isLoggedIn = true
+                    }
+                    .padding(.top, 20)
+                    
+                    Button(action: {
+                        // Switch to sign up view (to be implemented)
+                    }) {
+                        Text("Need an account? Sign Up")
+                            .font(.system(size: 14))
+                            .foregroundColor(Color(#colorLiteral(red: 0.5764705882, green: 0.5960784314, blue: 0.6352941176, alpha: 1)))
+                    }
+                    .padding(.top, 10)
+                    
+                    Spacer()
                 }
-                .padding(.top, 30)
-                
-                NeumorphicButton(text: "Log In") {
-                    // Perform login action
-                }
-                .padding(.top, 20)
-                
-                Button(action: {
-                    // Switch to sign up view
-                }) {
-                    Text("Need an account? Sign Up")
-                        .font(.system(size: 14))
-                        .foregroundColor(Color(#colorLiteral(red: 0.5764705882, green: 0.5960784314, blue: 0.6352941176, alpha: 1)))
-                }
-                .padding(.top, 10)
-                
-                Spacer()
+                .padding(.horizontal, 30)
             }
-            .padding(.horizontal, 30)
+            .navigationBarHidden(true)
+            .navigationDestination(isPresented: $navigateToJournal) {
+                JournalView()
+            }
         }
     }
 }
@@ -83,6 +92,7 @@ struct LoginView_Previews: PreviewProvider {
         LoginView()
     }
 }
+
 
 
 

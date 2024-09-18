@@ -9,6 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct JournalView: View {
+    @EnvironmentObject var appState: AppState
     @State private var journalText: String = ""
     @State private var isEditing: Bool = false
     
@@ -23,13 +24,15 @@ struct JournalView: View {
             VStack {
                 Spacer()
                 
-                StartHereView(isEditing: $isEditing, journalText: $journalText, textColor: textColor, accentColor: accentColor, backgroundColor: Color(UIColor.secondarySystemBackground))
+                StartHereView(isEditing: $isEditing, journalText: $journalText, textColor: textColor, accentColor: accentColor, backgroundColor: backgroundColor)
                 
                 Spacer()
                 
-                TwoIconsView(accentColor: accentColor, onClockTap: {
-                    // Implement clock tap functionality
-                })
+                if !isEditing {
+                    TwoIconsView(accentColor: accentColor, onClockTap: {
+                        // Implement clock tap functionality
+                    })
+                }
             }
             .padding(.horizontal, 30)
         }
@@ -68,4 +71,5 @@ struct JournalView_Previews: PreviewProvider {
         JournalView()
     }
 }
+
 

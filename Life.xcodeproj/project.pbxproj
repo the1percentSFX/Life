@@ -12,6 +12,8 @@
 		C957B6FF2C99167F00E518ED /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */; };
 		C957B7032C992A2C00E518ED /* TwoIconsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */; };
 		C957B7082C9930D700E518ED /* SeamlessTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */; };
+		C97CBF122C9A88A00038D9E5 /* JournalActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97CBF112C9A88A00038D9E5 /* JournalActionButtons.swift */; };
+		C97CBF142C9A8D1B0038D9E5 /* MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97CBF132C9A8D1B0038D9E5 /* MemoriesView.swift */; };
 		C9AF08CE2C8029DC00947715 /* LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08CD2C8029DC00947715 /* LifeApp.swift */; };
 		C9AF08D02C8029DC00947715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF08CF2C8029DC00947715 /* ContentView.swift */; };
 		C9AF08D22C8029DF00947715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF08D12C8029DF00947715 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
 		C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoIconsVIew.swift; sourceTree = "<group>"; };
 		C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamlessTextEditor.swift; sourceTree = "<group>"; };
+		C97CBF112C9A88A00038D9E5 /* JournalActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalActionButtons.swift; sourceTree = "<group>"; };
+		C97CBF132C9A8D1B0038D9E5 /* MemoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesView.swift; sourceTree = "<group>"; };
 		C9AF08CA2C8029DC00947715 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF08CD2C8029DC00947715 /* LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeApp.swift; sourceTree = "<group>"; };
 		C9AF08CF2C8029DC00947715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 				C9AF08FA2C802CD100947715 /* Starthere.swift */,
 				C957B7022C992A2C00E518ED /* TwoIconsVIew.swift */,
 				C957B7072C9930D700E518ED /* SeamlessTextEditor.swift */,
+				C97CBF112C9A88A00038D9E5 /* JournalActionButtons.swift */,
+				C97CBF132C9A8D1B0038D9E5 /* MemoriesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,7 +243,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					C9AF08C92C8029DC00947715 = {
 						CreatedOnToolsVersion = 15.4;
@@ -314,7 +320,9 @@
 				C957B7082C9930D700E518ED /* SeamlessTextEditor.swift in Sources */,
 				C92E35822C97D97D00E38644 /* LoginView.swift in Sources */,
 				C9AF08F82C802A5000947715 /* JournalView.swift in Sources */,
+				C97CBF122C9A88A00038D9E5 /* JournalActionButtons.swift in Sources */,
 				C957B6FF2C99167F00E518ED /* NeumorphicButton.swift in Sources */,
+				C97CBF142C9A8D1B0038D9E5 /* MemoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +539,6 @@
 		C9AF08F22C8029E000947715 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -551,7 +558,6 @@
 		C9AF08F32C8029E000947715 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -571,7 +577,6 @@
 		C9AF08F52C8029E000947715 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFR2TASJ58;
@@ -589,7 +594,6 @@
 		C9AF08F62C8029E000947715 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFR2TASJ58;
