@@ -7,11 +7,6 @@
 
 import Foundation
 
-struct JournalEntry: Codable {
-    let content: String
-    let date: Date
-}
-
 class RRAPI {
     static let shared = RRAPI()
     private let baseURL = "https://your-railway-app-url.com/api" // Replace with your actual Railway API URL
@@ -20,4 +15,5 @@ class RRAPI {
         // Implementation of API call to save journal entry
     }
 }
+
 

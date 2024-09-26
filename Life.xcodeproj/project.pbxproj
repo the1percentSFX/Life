@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91FBD1B2CA3BB850029E5C8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FBD1A2CA3BB850029E5C8 /* APIService.swift */; };
+		C91FBD1D2CA3BC9D0029E5C8 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FBD1C2CA3BC9D0029E5C8 /* JournalEntry.swift */; };
 		C92E35822C97D97D00E38644 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E35812C97D97D00E38644 /* LoginView.swift */; };
 		C92E35852C97D9B200E38644 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E35842C97D9B200E38644 /* LoginButton.swift */; };
 		C957B6FF2C99167F00E518ED /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91FBD1A2CA3BB850029E5C8 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C91FBD1C2CA3BC9D0029E5C8 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		C91FBD1E2CA3C0200029E5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C92E35812C97D97D00E38644 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C92E35842C97D9B200E38644 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
@@ -101,6 +106,8 @@
 				C92E35842C97D9B200E38644 /* LoginButton.swift */,
 				C92E35812C97D97D00E38644 /* LoginView.swift */,
 				C957B6FE2C99167F00E518ED /* NeumorphicButton.swift */,
+				C91FBD1A2CA3BB850029E5C8 /* APIService.swift */,
+				C91FBD1C2CA3BC9D0029E5C8 /* JournalEntry.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 		C9AF08CC2C8029DC00947715 /* Life */ = {
 			isa = PBXGroup;
 			children = (
+				C91FBD1E2CA3C0200029E5C8 /* Info.plist */,
 				C92E35802C97D94800E38644 /* Services */,
 				C9AF08F92C802C6E00947715 /* Views */,
 				C9AF08CD2C8029DC00947715 /* LifeApp.swift */,
@@ -310,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AF09012C80312300947715 /* RRAPI.swift in Sources */,
+				C91FBD1B2CA3BB850029E5C8 /* APIService.swift in Sources */,
 				C92E35852C97D9B200E38644 /* LoginButton.swift in Sources */,
 				C957B7032C992A2C00E518ED /* TwoIconsVIew.swift in Sources */,
 				C9AF08FF2C80301000947715 /* Delete.swift in Sources */,
@@ -318,6 +327,7 @@
 				C9AF08FD2C802FFC00947715 /* Save.swift in Sources */,
 				C9AF08CE2C8029DC00947715 /* LifeApp.swift in Sources */,
 				C957B7082C9930D700E518ED /* SeamlessTextEditor.swift in Sources */,
+				C91FBD1D2CA3BC9D0029E5C8 /* JournalEntry.swift in Sources */,
 				C92E35822C97D97D00E38644 /* LoginView.swift in Sources */,
 				C9AF08F82C802A5000947715 /* JournalView.swift in Sources */,
 				C97CBF122C9A88A00038D9E5 /* JournalActionButtons.swift in Sources */,
@@ -489,6 +499,7 @@
 				DEVELOPMENT_TEAM = KFR2TASJ58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Life/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -518,6 +529,7 @@
 				DEVELOPMENT_TEAM = KFR2TASJ58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Life/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
